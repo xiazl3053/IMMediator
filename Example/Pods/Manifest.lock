@@ -1,0 +1,16 @@
+PODS:
+  - IMMediator (0.1.0)
+
+DEPENDENCIES:
+  - IMMediator (from `../`)
+
+EXTERNAL SOURCES:
+  IMMediator:
+    :path: ../
+
+SPEC CHECKSUMS:
+  IMMediator: 911bef7820d828831a0c539c9dc2c259f9c74f9a
+
+PODFILE CHECKSUM: 008e2c0f2d0e0c39a3014a080a973c4f6327110a
+
+COCOAPODS: 1.2.0
