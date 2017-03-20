@@ -7,15 +7,12 @@
 //
 
 #import "TargetDemo.h"
-#import "TestViewController.h"
 
 @implementation TargetDemo
 
 - (UIViewController* )Action_gotoDemoViewController:(NSDictionary *)dictionary {
-    TestViewController *testVc = [[TestViewController alloc] init];
-    testVc.title = @"Test";
-    testVc.jsonData = dictionary;
-    return testVc;
+    //return MouduleViewController
+    return nil;
 }
 
 - (UITableViewCell *)Action_cell:(NSDictionary *)params {
