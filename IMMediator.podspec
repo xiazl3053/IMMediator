@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "IMMediator"
-  s.version      = "0.1.1"
+  s.version      = "0.9"
   s.summary      = "新版本测试"
 
   # This description is used to generate tags and improve search results.
@@ -25,7 +25,17 @@ Pod::Spec.new do |s|
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
   s.description  = <<-DESC
-建立的第一个私有库，第二次上传版本
+    组件化基类
+    可以通过调用ViewControllerWithJson:传入json，方式获取vc
+    json格式:{@"target":@"MouduleA",@"action":@"MouduleA_Method",@"data":@{}}
+    也可以通过categories的方式,调用-(id)performTarget:(NSString *)targetName 
+                                           action:(NSString *)actionName 
+                                           params:(NSDictionary *)params 
+                                shouldCacheTarget:(BOOL)shouldCacheTarget,
+    其中的targetName,组合成Moudule中的Targets类,actionName为Targets类的方法
+    Target类名可以直接使用Json传输，或者通过增加前缀生成固定的方式:比如json中传入   action:Demo,类则是  TargetDemo
+    Target类中实现具体的actionName的方法,相关的vc文件导入由Target类管理
+    json中传输的对象，不仅仅只限于字符串，亦可是其他的对象,block,UIImage,Model,Cell...
                    DESC
 
   s.homepage     = "https://github.com/xiazl3053/IMMediator"
@@ -34,8 +44,8 @@ Pod::Spec.new do |s|
   s.author    = "xiazl3053"
   s.platform     = :ios
   s.source       = { :git => "https://github.com/xiazl3053/IMMediator.git", :tag => "#{s.version}" }
-  s.source_files  = "Pods/Classes/*.{h,m}"
-  s.public_header_files = "Pods/Classes/*.h"
+  s.source_files  = "Pods/Classes/**/*.{h,m}"
+  s.public_header_files = "Pods/Classes/Mediator/*.h"
   # s.resource  = "icon.png"
   # s.resources = "Resources/*.png"
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"

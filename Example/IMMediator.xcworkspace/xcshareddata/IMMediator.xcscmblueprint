@@ -1,0 +1,30 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "87F2BDED873DD767697B866D3248AF4B934F2F19",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "87F2BDED873DD767697B866D3248AF4B934F2F19" : 9223372036854775807,
+    "0C375492AE96D6DA8D0C1288F447A4F1E74EAB98" : 9223372036854775807
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "553C9011-D570-4F41-9514-A0BC5305AC29",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "87F2BDED873DD767697B866D3248AF4B934F2F19" : "IMMediator\/",
+    "0C375492AE96D6DA8D0C1288F447A4F1E74EAB98" : ""
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "IMMediator",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "Example\/IMMediator.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiazl3053\/IMMediator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "0C375492AE96D6DA8D0C1288F447A4F1E74EAB98"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/xiazl3053\/IMMediator.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "87F2BDED873DD767697B866D3248AF4B934F2F19"
+    }
+  ]
+}

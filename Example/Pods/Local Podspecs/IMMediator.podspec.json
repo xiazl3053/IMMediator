@@ -1,22 +1,21 @@
 {
   "name": "IMMediator",
-  "version": "0.1.0",
-  "summary": "A short description of IMMediator.",
-  "description": "TODO: Add long description of the pod here.",
+  "version": "0.1.1",
+  "summary": "新版本测试",
+  "description": "建立的第一个私有库，第二次上传版本",
   "homepage": "https://github.com/xiazl3053/IMMediator",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
   },
-  "authors": {
-    "xiazl3053": "xiazl1987@163.com"
+  "authors": "xiazl3053",
+  "platforms": {
+    "ios": null
   },
   "source": {
     "git": "https://github.com/xiazl3053/IMMediator.git",
-    "tag": "0.1.0"
+    "tag": "0.1.1"
   },
-  "platforms": {
-    "ios": "8.0"
-  },
-  "source_files": "IMMediator/Classes/**/*"
+  "source_files": "Pods/Classes/*.{h,m}",
+  "public_header_files": "Pods/Classes/*.h"
 }

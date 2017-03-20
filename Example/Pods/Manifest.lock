@@ -1,16 +1,21 @@
 PODS:
-  - IMMediator (0.1.0)
+  - IMMediator (0.1.1)
 
 DEPENDENCIES:
-  - IMMediator (from `../`)
+  - IMMediator (from `https://github.com/xiazl3053/IMMediator.git`)
 
 EXTERNAL SOURCES:
   IMMediator:
-    :path: ../
+    :git: https://github.com/xiazl3053/IMMediator.git
+
+CHECKOUT OPTIONS:
+  IMMediator:
+    :commit: b318803707d79692336435bdc9d0072a90261ad3
+    :git: https://github.com/xiazl3053/IMMediator.git
 
 SPEC CHECKSUMS:
-  IMMediator: 911bef7820d828831a0c539c9dc2c259f9c74f9a
+  IMMediator: 7dd0495273b5aea2c312aaf579bd3607575d50b7
 
-PODFILE CHECKSUM: 008e2c0f2d0e0c39a3014a080a973c4f6327110a
+PODFILE CHECKSUM: 713b12f2d32b5e4e4922a658a141143ba2cfa7bc
 
 COCOAPODS: 1.2.0
