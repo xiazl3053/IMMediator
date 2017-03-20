@@ -1,6 +1,0 @@
-framework module IMMediator {
-  umbrella header "IMMediator-umbrella.h"
-
-  export *
-  module * { export * }
-}

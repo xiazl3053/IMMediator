@@ -1,6 +1,6 @@
 use_frameworks!
 target 'IMMediator_Tests' do
-  pod 'IMMediator', :path => '../'
+  pod 'IMMediator', 'git->https://github.com/xiazl3053/IMMediator.git'
   
   
 end
