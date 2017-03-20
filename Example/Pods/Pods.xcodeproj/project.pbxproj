@@ -13,6 +13,7 @@
 		79B31F7DB92826B73BFE7869ECE2D773 /* IMMediator-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 5890C0801439ECE2C0FB886CDCBBE94E /* IMMediator-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ACAAA414920C83F65D2CAD575566C26A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */; };
 		D1934872E6703636870604C6CFECABDB /* IMMediator.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DF8E8E972D7F36945E0EA211F11981B /* IMMediator.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
+		DAAE1A35909286B97EDED0B1758B05CE /* ReplaceMe.m in Sources */ = {isa = PBXBuildFile; fileRef = 5D10FA6A14CDF230EA866A68EF781E42 /* ReplaceMe.m */; settings = {COMPILER_FLAGS = "-DOS_OBJECT_USE_OBJC=0"; }; };
 		E54A1D8AB71582BFCCF93FCE0C559898 /* Pods-IMMediator_Tests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 4F365465A5B5B448F6A5B8C96BF75E9C /* Pods-IMMediator_Tests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		E7F6AA050D4AB83E6E004D01CFD53390 /* Pods-IMMediator_Tests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 4A7C55759740B5A6281F78C1E64A592F /* Pods-IMMediator_Tests-dummy.m */; };
 /* End PBXBuildFile section */
@@ -29,8 +30,8 @@
 
 /* Begin PBXFileReference section */
 		0777AC0BE4EDE5D1E1FDA83ABA99DD32 /* IMMediator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = IMMediator.h; path = Pods/Classes/IMMediator.h; sourceTree = "<group>"; };
-		1C0BAFE3B8D1F833420EFA401A36AF27 /* IMMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = IMMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		1D6BB522C91A6182FE529CA8B6AA666B /* Pods-IMMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-IMMediator_Tests.modulemap"; sourceTree = "<group>"; };
+		1C0BAFE3B8D1F833420EFA401A36AF27 /* IMMediator.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = IMMediator.framework; path = IMMediator.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		1D6BB522C91A6182FE529CA8B6AA666B /* Pods-IMMediator_Tests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-IMMediator_Tests.modulemap"; sourceTree = "<group>"; };
 		27A2693DF660CEEBD2A19906731D6EA8 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		39FD3C6072C27523F556256531ABC2C0 /* Pods-IMMediator_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IMMediator_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		3BA6BE851B4B8C229DCB6893AEEA9A71 /* IMMediator.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = IMMediator.xcconfig; sourceTree = "<group>"; };
@@ -38,16 +39,17 @@
 		4A7C55759740B5A6281F78C1E64A592F /* Pods-IMMediator_Tests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-IMMediator_Tests-dummy.m"; sourceTree = "<group>"; };
 		4F365465A5B5B448F6A5B8C96BF75E9C /* Pods-IMMediator_Tests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-IMMediator_Tests-umbrella.h"; sourceTree = "<group>"; };
 		5890C0801439ECE2C0FB886CDCBBE94E /* IMMediator-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IMMediator-umbrella.h"; sourceTree = "<group>"; };
-		58AB93538F2926C66B3F98C3AB93CFB1 /* IMMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = IMMediator.modulemap; sourceTree = "<group>"; };
+		58AB93538F2926C66B3F98C3AB93CFB1 /* IMMediator.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = IMMediator.modulemap; sourceTree = "<group>"; };
 		5BE34F22FD392C6B9E26A8274F84DE38 /* IMMediator-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "IMMediator-dummy.m"; sourceTree = "<group>"; };
+		5D10FA6A14CDF230EA866A68EF781E42 /* ReplaceMe.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ReplaceMe.m; path = Pods/Classes/ReplaceMe.m; sourceTree = "<group>"; };
 		630D4326B14E2649FD3AFFC64C76ECBF /* Pods-IMMediator_Tests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IMMediator_Tests-resources.sh"; sourceTree = "<group>"; };
 		74BE175DF8CD0A2781490BD9553855DB /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		BE68B10A8A43ED6F299AD8031ADDB6DE /* Pods-IMMediator_Tests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-IMMediator_Tests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		CBB3DE36805AF21409EC968A9691732F /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		D6ADB936585F88959F5D75C9D499FE0C /* Pods-IMMediator_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-IMMediator_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		DEEA25C2F89598AD5E179D59F68E2DD3 /* Pods-IMMediator_Tests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-IMMediator_Tests-acknowledgements.plist"; sourceTree = "<group>"; };
-		E36ED097A6FA3410C5951A06BC8BD23C /* Pods_IMMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_IMMediator_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E36ED097A6FA3410C5951A06BC8BD23C /* Pods_IMMediator_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_IMMediator_Tests.framework; path = "Pods-IMMediator_Tests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EDB2B46AB606203AC633DB0339129FE9 /* IMMediator-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "IMMediator-prefix.pch"; sourceTree = "<group>"; };
 		FE74C875D3B952D0B37459E359270522 /* Pods-IMMediator_Tests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-IMMediator_Tests-frameworks.sh"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -104,8 +106,10 @@
 			children = (
 				0777AC0BE4EDE5D1E1FDA83ABA99DD32 /* IMMediator.h */,
 				3DF8E8E972D7F36945E0EA211F11981B /* IMMediator.m */,
+				5D10FA6A14CDF230EA866A68EF781E42 /* ReplaceMe.m */,
 				EA7A7AE1039FE77EBE889ECD9F1F06F4 /* Support Files */,
 			);
+			name = IMMediator;
 			path = IMMediator;
 			sourceTree = "<group>";
 		};
@@ -258,6 +262,7 @@
 			files = (
 				05F3C38A5B9D09FF8ED39D728FBB4F6B /* IMMediator-dummy.m in Sources */,
 				D1934872E6703636870604C6CFECABDB /* IMMediator.m in Sources */,
+				DAAE1A35909286B97EDED0B1758B05CE /* ReplaceMe.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
